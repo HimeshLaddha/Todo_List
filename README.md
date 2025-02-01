@@ -16,5 +16,5 @@ Tech Stack:
 How to Use:
  - Clone the repository.
  - Install dependencies with npm install.
- - Run the app with npm run dev(Make sure you are in vite project).
+ - Run the app with npm run dev (Make sure you are in vite project).
  - Add, edit, delete, and manage your tasks.
