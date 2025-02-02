@@ -1,5 +1,5 @@
 # To-Do List App
-A simple and interactive To-Do List application built with React. This app allows users to easily add, edit, delete, and mark tasks as completed. It also provides functionality to filter completed and pending tasks.
+A simple and interactive To-Do List application built with React, and Tailwind CSS. This app allows users to easily add, edit, delete, and mark tasks as completed. It also provides functionality to filter completed and pending tasks.
 
 Features:
  - Add new tasks with a unique ID.
@@ -15,6 +15,7 @@ Tech Stack:
 
 How to Use:
  - Clone the repository.
+ - Change the current directory to Todo_List directory using cd Todo_List
  - Install dependencies with npm install.
- - Run the app with npm run dev (Make sure you are in vite project).
+ - Run the app with npm run dev.
  - Add, edit, delete, and manage your tasks.
