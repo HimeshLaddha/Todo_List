@@ -88,7 +88,7 @@ function App() {
         <div className='h-[1px] bg-black opacity-15 w-[90%] mx-auto my-2'></div>
         <h2 className='text-2xl font-bold'>Your Todos</h2>
         <div className="todos">
-          {todos.length === 0 && <div className='m-5'>No Todos to display</div>}
+          {todos.length === 0 && <div className='m-5 text-2xl'>No Todos to display</div>}
           {todos.map(item => {
             return (showFinished || !item.isCompleted) && (
               <div
@@ -100,7 +100,7 @@ function App() {
                 </div>
                 <div className="buttons flex h-full">
                   <button onClick={(e) => handleEdit(e, item.id)} className="bg-violet-800 hover:bg-violet-950 p-2 py-1 text-sm font-bold text-white rounded-md mx-1 h-[40px] w-[40px] flex items-center justify-center"><FaEdit className="text-2xl" /></button>
-                  <button onClick={(e) => { handleDelete(e, item.id); }} className="bg-violet-800 hover:bg-violet-950 p-2 py-1 text-sm font-bold text-white rounded-md mx-1 h-[40px] w-[40px] flex items-center justify-center">z<AiFillDelete className="text-2xl" /></button>
+                  <button onClick={(e) => { handleDelete(e, item.id); }} className="bg-violet-800 hover:bg-violet-950 p-2 py-1 text-sm font-bold text-white rounded-md mx-1 h-[40px] w-[40px] flex items-center justify-center"><AiFillDelete className="text-2xl" /></button>
                 </div>
               </div>
             )
